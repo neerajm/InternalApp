@@ -2,7 +2,7 @@
 //  BIDEmployeeHandbook.m
 //  MasterSummerProject
 //
-//  Created by Nick Woodward on 8/12/14.
+//  Created by Software Merchant Inc. on 8/12/14.
 //  Copyright (c) 2014 Softwaremerchant. All rights reserved.
 //
 
