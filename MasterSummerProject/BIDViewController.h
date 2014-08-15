@@ -10,4 +10,21 @@
 
 @interface BIDViewController : UIViewController
 
+-(IBAction)login:(id)sender;
+
+@property(strong,nonatomic) IBOutlet UITextField *username;
+
+@property (strong, nonatomic) NSString *userName;
+
+@property (strong, nonatomic) NSString *password;
+
+@property (weak, nonatomic) IBOutlet UITextField *labeluserName;
+
+@property (weak, nonatomic) IBOutlet UITextField *labelpassword;
+
+@property int validateduser;
+- (IBAction)pressbutton:(id)sender;
+
+- (IBAction)control:(id)sender;
+
 @end
