@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FB9A405B-3F74-47B0-973F-503C9123F27E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MasterSummerProject</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8D6D6C59-B6D7-4505-90CA-8864C2B03C59</key>
+		<string>https://github.com/neerajm/ProjectPizza.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MasterSummerProject.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8D6D6C59-B6D7-4505-90CA-8864C2B03C59</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/neerajm/ProjectPizza.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8D6D6C59-B6D7-4505-90CA-8864C2B03C59</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8D6D6C59-B6D7-4505-90CA-8864C2B03C59</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ProjectPizza</string>
+		</dict>
+	</array>
+</dict>
+</plist>

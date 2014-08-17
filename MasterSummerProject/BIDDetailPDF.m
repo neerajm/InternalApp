@@ -1,7 +1,7 @@
 //
 //  BIDDetailPDF.m
 //  MasterSummerProject
-//
+//  new comment added august 17
 //  Created by Nick Woodward on 8/13/14.
 //  Copyright (c) 2014 Softwaremerchant. All rights reserved.
 //
