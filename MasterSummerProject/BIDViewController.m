@@ -2,7 +2,7 @@
 //  BIDViewController.m
 //  MasterSummerProject
 //
-//  Created by Monica Mathur on 8/10/14.
+//  Created by Software Merchant Inc. Mathur on 8/10/14.
 //  Copyright (c) 2014 Softwaremerchant. All rights reserved.
 //
 
