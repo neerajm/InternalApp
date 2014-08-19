@@ -12,6 +12,6 @@
 @property (strong, nonatomic) IBOutlet UITextField *newPassword;
 @property (strong, nonatomic) IBOutlet UITextField *confirmPassword;
 
-- (IBAction)savePassword;
+
 
 @end
