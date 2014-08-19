@@ -16,6 +16,7 @@
     NSURL *url;
     NSMutableArray *isChecked;
     NSArray *pdfURLS;
+    NSArray *namesOfUrls;
     BOOL sendEmail;
 }
 
@@ -33,7 +34,7 @@
     [super viewDidLoad];
     sendEmail = false;
     self.sendMail.enabled = NO;
-    isChecked = [[NSMutableArray alloc] initWithObjects:@"FALSE",@"FALSE",@"FALSE",@"FALSE",@"FALSE",@"FALSE",@"FALSE", nil];
+    isChecked = [[NSMutableArray alloc] initWithObjects:@"FALSE",@"FALSE",@"FALSE",@"FALSE",@"FALSE",@"FALSE",@"FALSE",@"FALSE",@"FALSE",@"FALSE",@"FALSE", nil];
     pdfURLS = [[NSArray alloc] initWithObjects:
                @"http://www.softwaremerchant.com/welcomepacket/W-4%202014.pdf",
                @"http://www.softwaremerchant.com/welcomepacket/I-9.pdf",
@@ -41,7 +42,23 @@
                @"http://www.softwaremerchant.com/welcomepacket/Residency%20Certification%20Form%20DCED-CLGS-06.pdf",
                @"http://www.softwaremerchant.com/welcomepacket/IBC%202014%20Employee%20Enrollment%20Form.pdf",
                @"http://www.softwaremerchant.com/welcomepacket/Dental%20and%20Vision%20SM%202014%20Benefits.pdf",
-               @"http://www.softwaremerchant.com/welcomepacket/2014%20Medical%20Plan%20Options.pdf",nil];
+               @"http://www.softwaremerchant.com/welcomepacket/2014%20Medical%20Plan%20Options.pdf",
+               @"http://www.softwaremerchant.com/welcomepacket/ExampleWeeklyStatusReport.pdf",
+               @"http://www.softwaremerchant.com/welcomepacket/ExampleTimecard.pdf",
+               @"http://www.softwaremerchant.com/welcomepacket/ExamplePerformanceReview.pdf",
+               @"http://www.softwaremerchant.com/welcomepacket/EmploymentGCApplication.pdf",nil];
+    namesOfUrls = [[NSArray alloc] initWithObjects:
+               @"W-4",
+               @"I-9",
+               @"Direct Deposit Authorization",
+               @"Residency Verification form",
+               @"Health Care Application",
+               @"Dental and Vision Application",
+               @"Medical Plans",
+               @"Welcome Packet",
+               @"Example Time Card",
+               @"Example Performance Review",
+               @"Employment GC Application",nil];
     
 }
 
@@ -73,12 +90,12 @@
 {
     //#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 7;
+    return pdfURLS.count;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if(sendEmail == false){
-        if(indexPath.row == 0){
+        /*if(indexPath.row == 0){
             url = [[NSURL alloc]initWithString:@"http://www.softwaremerchant.com/welcomepacket/W-4%202014.pdf"];
         }
         else if(indexPath.row == 1){
@@ -100,7 +117,8 @@
         }
         else {
             url = [[NSURL alloc]initWithString:@"http://www.softwaremerchant.com/welcomepacket/2014%20Medical%20Plan%20Options.pdf"];
-        }
+        }*/
+        url = [[NSURL alloc]initWithString:pdfURLS[indexPath.row]];
         [self performSegueWithIdentifier:@"toPDF" sender:url];
     }
     else{
@@ -122,27 +140,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"pdf" forIndexPath:indexPath];
     
     UILabel *pdfLabel = (id)[cell viewWithTag:1];
-    if(indexPath.row == 0){
-        [pdfLabel setText:@"W-4"];
-    }
-    else if(indexPath.row == 1){
-        [pdfLabel setText:@"I-9"];
-    }
-    else if(indexPath.row == 2){
-        [pdfLabel setText:@"Direct Deposit Authorization"];
-    }
-    else if(indexPath.row == 3){
-        [pdfLabel setText:@"Residency Verification form"];
-    }
-    else if(indexPath.row == 4){
-        [pdfLabel setText:@"Health Care Application"];
-    }
-    else if(indexPath.row == 5){
-        [pdfLabel setText:@"Dental and Vision Application"];
-    }
-    else{
-        [pdfLabel setText:@"Medical Plans"];
-    }
+    pdfLabel.text = namesOfUrls[indexPath.row];
     if([isChecked[indexPath.row] isEqualToString: @"TRUE"]){
         cell.accessoryType = UITableViewCellAccessoryCheckmark;
     }
