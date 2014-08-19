@@ -46,8 +46,38 @@
 }
 */
 
-- (IBAction)send:(id)sender {
-}
+
+
 - (IBAction)save:(id)sender {
+    
+    if([_tfNewPassword.text isEqualToString:_tfConfirm.text])
+    {
+   
+    UIAlertView *alert  = [[UIAlertView alloc]
+                           initWithTitle:@""
+                           message:@"Password changed successfully"                       delegate:self
+                           cancelButtonTitle:@"Done"
+                           otherButtonTitles:nil];
+    [alert show];
+    }
+    else
+    {
+        UIAlertView *alert2  = [[UIAlertView alloc]
+                               initWithTitle:@"Password does not match"
+                               message:@"Please enter your password again"                     delegate:self
+                               cancelButtonTitle:@"Okay"
+                               otherButtonTitles:nil];
+        [alert2 show];
+    }
+    _tfConfirm.text=@"";
+    _tfNewPassword.text=@"";
+}
+
+- (IBAction)textFieldDoneEditing:(id)sender {
+    [sender resignFirstResponder];
+}
+- (IBAction)backgroundTap:(id)sender {
+    [self.tfNewPassword resignFirstResponder];
+    [self.tfConfirm resignFirstResponder];
 }
 @end

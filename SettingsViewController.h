@@ -13,5 +13,7 @@
 
 @property (weak, nonatomic) IBOutlet UITextField *tfNewPassword;
 @property (weak, nonatomic) IBOutlet UITextField *tfConfirm;
+- (IBAction)textFieldDoneEditing:(id)sender;
 
+- (IBAction)backgroundTap:(id)sender;
 @end
