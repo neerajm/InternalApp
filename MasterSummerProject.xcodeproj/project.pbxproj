@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29749E7819A28BF9002C253A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 29749E7719A28BF9002C253A /* icon.png */; };
+		29749E7A19A28C01002C253A /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29749E7919A28C01002C253A /* icon@2x.png */; };
 		342EB512199AA909001475ED /* BIDEmployeeHandbook.m in Sources */ = {isa = PBXBuildFile; fileRef = 342EB511199AA909001475ED /* BIDEmployeeHandbook.m */; };
 		342EB515199BA5C0001475ED /* BIDDetailPDF.m in Sources */ = {isa = PBXBuildFile; fileRef = 342EB514199BA5C0001475ED /* BIDDetailPDF.m */; };
 		342EB54C199BD164001475ED /* 22810839-profile-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 342EB53C199BD164001475ED /* 22810839-profile-icon.jpg */; };
@@ -62,6 +64,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29749E7719A28BF9002C253A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		29749E7919A28C01002C253A /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		342EB510199AA909001475ED /* BIDEmployeeHandbook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDEmployeeHandbook.h; sourceTree = "<group>"; };
 		342EB511199AA909001475ED /* BIDEmployeeHandbook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDEmployeeHandbook.m; sourceTree = "<group>"; };
 		342EB513199BA5C0001475ED /* BIDDetailPDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDetailPDF.h; sourceTree = "<group>"; };
@@ -144,6 +148,8 @@
 		342EB53B199BD164001475ED /* IMAGES */ = {
 			isa = PBXGroup;
 			children = (
+				29749E7719A28BF9002C253A /* icon.png */,
+				29749E7919A28C01002C253A /* icon@2x.png */,
 				342EB563199BD683001475ED /* splashR4 copy.png */,
 				342EB53C199BD164001475ED /* 22810839-profile-icon.jpg */,
 				342EB53D199BD164001475ED /* a-to-z-directory-icon-md.png */,
@@ -359,8 +365,10 @@
 				342EB54D199BD164001475ED /* a-to-z-directory-icon-md.png in Resources */,
 				DDE3F32D199BEB13007BC538 /* Glass_-_Windows_7_Wallpaper.jpg in Resources */,
 				DDE3F32B199BEB06007BC538 /* icon_general_sessions.jpg in Resources */,
+				29749E7819A28BF9002C253A /* icon.png in Resources */,
 				342EB564199BD683001475ED /* splashR4 copy.png in Resources */,
 				342EB54F199BD164001475ED /* emailicon.png in Resources */,
+				29749E7A19A28C01002C253A /* icon@2x.png in Resources */,
 				342EB558199BD164001475ED /* SMlogo.png in Resources */,
 				342EB552199BD164001475ED /* goals_icon.jpg in Resources */,
 				DDE3F32F199BEB1B007BC538 /* gradient-gray-201.jpg in Resources */,
