@@ -1,23 +1,18 @@
 //
-//  BIDDetailPDF.m
+//  BIDChangePassword.m
 //  MasterSummerProject
-
-//  new comment added august 17
-//  Created by Nick Woodward on 8/13/14
 //
-//  Created by Software Merchant Inc. on 8/13/14.
+//  Created by admin on 8/18/14.
 //  Copyright (c) 2014 Softwaremerchant. All rights reserved.
 //
 
-#import "BIDDetailPDF.h"
+#import "BIDChangePassword.h"
 
-@interface BIDDetailPDF ()
+@interface BIDChangePassword ()
 
 @end
 
-@implementation BIDDetailPDF{
-    NSURL *url;
-}
+@implementation BIDChangePassword
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -31,9 +26,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSURLRequest*request=[NSURLRequest requestWithURL:url];
-    [self.wvPDF loadRequest:request];
-    self.wvPDF.scalesPageToFit=YES;
     // Do any additional setup after loading the view.
 }
 

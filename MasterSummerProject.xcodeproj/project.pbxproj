@@ -31,6 +31,7 @@
 		342EB562199BD320001475ED /* SUBXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 342EB560199BD320001475ED /* SUBXMLParser.m */; };
 		342EB564199BD683001475ED /* splashR4 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 342EB563199BD683001475ED /* splashR4 copy.png */; };
 		342EB636199BF7A7001475ED /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342EB635199BF7A7001475ED /* MessageUI.framework */; };
+		84FAC85F19A2975200D5E8F9 /* BIDChangePassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FAC85E19A2975200D5E8F9 /* BIDChangePassword.m */; };
 		DD3E67251997F32100A933BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3E67241997F32100A933BF /* Foundation.framework */; };
 		DD3E67271997F32100A933BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3E67261997F32100A933BF /* CoreGraphics.framework */; };
 		DD3E67291997F32100A933BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3E67281997F32100A933BF /* UIKit.framework */; };
@@ -91,6 +92,8 @@
 		342EB560199BD320001475ED /* SUBXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUBXMLParser.m; sourceTree = "<group>"; };
 		342EB563199BD683001475ED /* splashR4 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splashR4 copy.png"; sourceTree = "<group>"; };
 		342EB635199BF7A7001475ED /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		84FAC85D19A2975200D5E8F9 /* BIDChangePassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDChangePassword.h; sourceTree = "<group>"; };
+		84FAC85E19A2975200D5E8F9 /* BIDChangePassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDChangePassword.m; sourceTree = "<group>"; };
 		DD3E67211997F32100A933BF /* MasterSummerProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterSummerProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD3E67241997F32100A933BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DD3E67261997F32100A933BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -227,6 +230,8 @@
 				342EB514199BA5C0001475ED /* BIDDetailPDF.m */,
 				342EB510199AA909001475ED /* BIDEmployeeHandbook.h */,
 				342EB511199AA909001475ED /* BIDEmployeeHandbook.m */,
+				84FAC85D19A2975200D5E8F9 /* BIDChangePassword.h */,
+				84FAC85E19A2975200D5E8F9 /* BIDChangePassword.m */,
 				DD3E67391997F32100A933BF /* BIDViewController.h */,
 				DD3E673A1997F32100A933BF /* BIDViewController.m */,
 				DD3E673C1997F32100A933BF /* Images.xcassets */,
@@ -395,6 +400,7 @@
 				342EB561199BD320001475ED /* SUBUser.m in Sources */,
 				DD3E673B1997F32100A933BF /* BIDViewController.m in Sources */,
 				342EB562199BD320001475ED /* SUBXMLParser.m in Sources */,
+				84FAC85F19A2975200D5E8F9 /* BIDChangePassword.m in Sources */,
 				DD3E67311997F32100A933BF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
