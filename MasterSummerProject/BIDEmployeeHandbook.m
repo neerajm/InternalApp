@@ -1,7 +1,7 @@
 //
 //  BIDEmployeeHandbook.m
 //  MasterSummerProject
-//
+// Test test 12345 sunday august 17
 //  Created by Software Merchant Inc. on 8/12/14.
 //  Copyright (c) 2014 Softwaremerchant. All rights reserved.
 //
@@ -158,7 +158,9 @@
     return cell;
 }
 
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+
     //NSURL *url = (NSURL *)sender;
     UIViewController *vc = [segue destinationViewController];
     @try {
@@ -185,12 +187,12 @@
     if(sendEmail == false){
         sendEmail = true;
         self.sendMail.enabled = YES;
-        [self.btnSendMail setTitle:@"View PDFs" forState:UIControlStateNormal];
+        [self.btnSendMail setTitle:@"Back to View PDF Mode" forState:UIControlStateNormal];
     }
     else{
         sendEmail = false;
         self.sendMail.enabled = NO;
-        [self.btnSendMail setTitle:@"Send Mail" forState:UIControlStateNormal];
+        [self.btnSendMail setTitle:@"Select Documents to Email" forState:UIControlStateNormal];
         for(int i = 0;i<7;i++){
             isChecked[i] = @"FALSE";
         }
@@ -222,6 +224,7 @@
     // Close the Mail Interface
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
+
 
 - (IBAction)email:(id)sender {
     // Email Subject
