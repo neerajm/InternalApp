@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		29749E7819A28BF9002C253A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 29749E7719A28BF9002C253A /* icon.png */; };
 		29749E7A19A28C01002C253A /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29749E7919A28C01002C253A /* icon@2x.png */; };
+		34232B6219A3D14C0062E328 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34232B6119A3D14C0062E328 /* SettingsViewController.m */; };
 		342EB512199AA909001475ED /* BIDEmployeeHandbook.m in Sources */ = {isa = PBXBuildFile; fileRef = 342EB511199AA909001475ED /* BIDEmployeeHandbook.m */; };
 		342EB515199BA5C0001475ED /* BIDDetailPDF.m in Sources */ = {isa = PBXBuildFile; fileRef = 342EB514199BA5C0001475ED /* BIDDetailPDF.m */; };
 		342EB54C199BD164001475ED /* 22810839-profile-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 342EB53C199BD164001475ED /* 22810839-profile-icon.jpg */; };
@@ -31,7 +32,6 @@
 		342EB562199BD320001475ED /* SUBXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 342EB560199BD320001475ED /* SUBXMLParser.m */; };
 		342EB564199BD683001475ED /* splashR4 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 342EB563199BD683001475ED /* splashR4 copy.png */; };
 		342EB636199BF7A7001475ED /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342EB635199BF7A7001475ED /* MessageUI.framework */; };
-		84FAC85F19A2975200D5E8F9 /* BIDChangePassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FAC85E19A2975200D5E8F9 /* BIDChangePassword.m */; };
 		DD3E67251997F32100A933BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3E67241997F32100A933BF /* Foundation.framework */; };
 		DD3E67271997F32100A933BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3E67261997F32100A933BF /* CoreGraphics.framework */; };
 		DD3E67291997F32100A933BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3E67281997F32100A933BF /* UIKit.framework */; };
@@ -66,6 +66,8 @@
 /* Begin PBXFileReference section */
 		29749E7719A28BF9002C253A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		29749E7919A28C01002C253A /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		34232B6019A3D14C0062E328 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		34232B6119A3D14C0062E328 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		342EB510199AA909001475ED /* BIDEmployeeHandbook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDEmployeeHandbook.h; sourceTree = "<group>"; };
 		342EB511199AA909001475ED /* BIDEmployeeHandbook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDEmployeeHandbook.m; sourceTree = "<group>"; };
 		342EB513199BA5C0001475ED /* BIDDetailPDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDetailPDF.h; sourceTree = "<group>"; };
@@ -92,8 +94,6 @@
 		342EB560199BD320001475ED /* SUBXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUBXMLParser.m; sourceTree = "<group>"; };
 		342EB563199BD683001475ED /* splashR4 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splashR4 copy.png"; sourceTree = "<group>"; };
 		342EB635199BF7A7001475ED /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		84FAC85D19A2975200D5E8F9 /* BIDChangePassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDChangePassword.h; sourceTree = "<group>"; };
-		84FAC85E19A2975200D5E8F9 /* BIDChangePassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDChangePassword.m; sourceTree = "<group>"; };
 		DD3E67211997F32100A933BF /* MasterSummerProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterSummerProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD3E67241997F32100A933BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DD3E67261997F32100A933BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -190,6 +190,8 @@
 		DD3E67181997F32100A933BF = {
 			isa = PBXGroup;
 			children = (
+				34232B6019A3D14C0062E328 /* SettingsViewController.h */,
+				34232B6119A3D14C0062E328 /* SettingsViewController.m */,
 				342EB55C199BD320001475ED /* PARSER CLASSES */,
 				342EB53B199BD164001475ED /* IMAGES */,
 				DD3E672A1997F32100A933BF /* MasterSummerProject */,
@@ -230,8 +232,6 @@
 				342EB514199BA5C0001475ED /* BIDDetailPDF.m */,
 				342EB510199AA909001475ED /* BIDEmployeeHandbook.h */,
 				342EB511199AA909001475ED /* BIDEmployeeHandbook.m */,
-				84FAC85D19A2975200D5E8F9 /* BIDChangePassword.h */,
-				84FAC85E19A2975200D5E8F9 /* BIDChangePassword.m */,
 				DD3E67391997F32100A933BF /* BIDViewController.h */,
 				DD3E673A1997F32100A933BF /* BIDViewController.m */,
 				DD3E673C1997F32100A933BF /* Images.xcassets */,
@@ -397,10 +397,10 @@
 				DD3E67351997F32100A933BF /* BIDAppDelegate.m in Sources */,
 				342EB515199BA5C0001475ED /* BIDDetailPDF.m in Sources */,
 				342EB512199AA909001475ED /* BIDEmployeeHandbook.m in Sources */,
+				34232B6219A3D14C0062E328 /* SettingsViewController.m in Sources */,
 				342EB561199BD320001475ED /* SUBUser.m in Sources */,
 				DD3E673B1997F32100A933BF /* BIDViewController.m in Sources */,
 				342EB562199BD320001475ED /* SUBXMLParser.m in Sources */,
-				84FAC85F19A2975200D5E8F9 /* BIDChangePassword.m in Sources */,
 				DD3E67311997F32100A933BF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

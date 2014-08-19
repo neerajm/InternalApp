@@ -1,18 +1,18 @@
 //
-//  BIDChangePassword.m
+//  SettingsViewController.m
 //  MasterSummerProject
 //
-//  Created by admin on 8/18/14.
+//  Created by Nick Woodward on 8/19/14.
 //  Copyright (c) 2014 Softwaremerchant. All rights reserved.
 //
 
-#import "BIDChangePassword.h"
+#import "SettingsViewController.h"
 
-@interface BIDChangePassword ()
+@interface SettingsViewController ()
 
 @end
 
-@implementation BIDChangePassword
+@implementation SettingsViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -46,4 +46,8 @@
 }
 */
 
+- (IBAction)send:(id)sender {
+}
+- (IBAction)save:(id)sender {
+}
 @end
