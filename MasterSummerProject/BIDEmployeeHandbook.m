@@ -158,7 +158,9 @@
     return cell;
 }
 
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+
     //NSURL *url = (NSURL *)sender;
     UIViewController *vc = [segue destinationViewController];
     @try {
@@ -185,12 +187,12 @@
     if(sendEmail == false){
         sendEmail = true;
         self.sendMail.enabled = YES;
-        [self.btnSendMail setTitle:@"View PDFs" forState:UIControlStateNormal];
+        [self.btnSendMail setTitle:@"Back to View PDF Mode" forState:UIControlStateNormal];
     }
     else{
         sendEmail = false;
         self.sendMail.enabled = NO;
-        [self.btnSendMail setTitle:@"Send Mail" forState:UIControlStateNormal];
+        [self.btnSendMail setTitle:@"Select Documents to Email" forState:UIControlStateNormal];
         for(int i = 0;i<7;i++){
             isChecked[i] = @"FALSE";
         }
