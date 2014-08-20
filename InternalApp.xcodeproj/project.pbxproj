@@ -115,23 +115,23 @@
 		DD25462119A3EC1D008095D3 /* how-do-cpu-benchmarks-work.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "how-do-cpu-benchmarks-work.png"; sourceTree = "<group>"; };
 		DD25462319A3EC28008095D3 /* Android-Phone-Grey-Color-Background-HD-605x1075.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Android-Phone-Grey-Color-Background-HD-605x1075.jpg"; sourceTree = "<group>"; };
 		DD25462519A3EC96008095D3 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
-		DD3E67211997F32100A933BF /* MasterSummerProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterSummerProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3E67211997F32100A933BF /* InternalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InternalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD3E67241997F32100A933BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DD3E67261997F32100A933BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DD3E67281997F32100A933BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		DD3E672C1997F32100A933BF /* MasterSummerProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MasterSummerProject-Info.plist"; sourceTree = "<group>"; };
+		DD3E672C1997F32100A933BF /* InternalApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InternalApp-Info.plist"; sourceTree = "<group>"; };
 		DD3E672E1997F32100A933BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DD3E67301997F32100A933BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DD3E67321997F32100A933BF /* MasterSummerProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MasterSummerProject-Prefix.pch"; sourceTree = "<group>"; };
+		DD3E67321997F32100A933BF /* InternalApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InternalApp-Prefix.pch"; sourceTree = "<group>"; };
 		DD3E67331997F32100A933BF /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
 		DD3E67341997F32100A933BF /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
 		DD3E67371997F32100A933BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main2.storyboard; sourceTree = "<group>"; };
 		DD3E67391997F32100A933BF /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
 		DD3E673A1997F32100A933BF /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
 		DD3E673C1997F32100A933BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		DD3E67421997F32100A933BF /* MasterSummerProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasterSummerProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3E67421997F32100A933BF /* InternalAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InternalAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD3E67431997F32100A933BF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		DD3E674B1997F32100A933BF /* MasterSummerProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MasterSummerProjectTests-Info.plist"; sourceTree = "<group>"; };
+		DD3E674B1997F32100A933BF /* InternalAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InternalAppTests-Info.plist"; sourceTree = "<group>"; };
 		DD3E674D1997F32100A933BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DD3E674F1997F32100A933BF /* MasterSummerProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterSummerProjectTests.m; sourceTree = "<group>"; };
 		DDC8AD2019A4E1A3003B231D /* coupons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coupons.png; sourceTree = "<group>"; };
@@ -237,8 +237,8 @@
 		DD3E67221997F32100A933BF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD3E67211997F32100A933BF /* MasterSummerProject.app */,
-				DD3E67421997F32100A933BF /* MasterSummerProjectTests.xctest */,
+				DD3E67211997F32100A933BF /* InternalApp.app */,
+				DD3E67421997F32100A933BF /* InternalAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -276,10 +276,10 @@
 		DD3E672B1997F32100A933BF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DD3E672C1997F32100A933BF /* MasterSummerProject-Info.plist */,
+				DD3E672C1997F32100A933BF /* InternalApp-Info.plist */,
 				DD3E672D1997F32100A933BF /* InfoPlist.strings */,
 				DD3E67301997F32100A933BF /* main.m */,
-				DD3E67321997F32100A933BF /* MasterSummerProject-Prefix.pch */,
+				DD3E67321997F32100A933BF /* InternalApp-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -296,7 +296,7 @@
 		DD3E674A1997F32100A933BF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DD3E674B1997F32100A933BF /* MasterSummerProjectTests-Info.plist */,
+				DD3E674B1997F32100A933BF /* InternalAppTests-Info.plist */,
 				DD3E674C1997F32100A933BF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -305,9 +305,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD3E67201997F32100A933BF /* MasterSummerProject */ = {
+		DD3E67201997F32100A933BF /* InternalApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD3E67531997F32100A933BF /* Build configuration list for PBXNativeTarget "MasterSummerProject" */;
+			buildConfigurationList = DD3E67531997F32100A933BF /* Build configuration list for PBXNativeTarget "InternalApp" */;
 			buildPhases = (
 				DD3E671D1997F32100A933BF /* Sources */,
 				DD3E671E1997F32100A933BF /* Frameworks */,
@@ -317,14 +317,14 @@
 			);
 			dependencies = (
 			);
-			name = MasterSummerProject;
+			name = InternalApp;
 			productName = MasterSummerProject;
-			productReference = DD3E67211997F32100A933BF /* MasterSummerProject.app */;
+			productReference = DD3E67211997F32100A933BF /* InternalApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DD3E67411997F32100A933BF /* MasterSummerProjectTests */ = {
+		DD3E67411997F32100A933BF /* InternalAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD3E67561997F32100A933BF /* Build configuration list for PBXNativeTarget "MasterSummerProjectTests" */;
+			buildConfigurationList = DD3E67561997F32100A933BF /* Build configuration list for PBXNativeTarget "InternalAppTests" */;
 			buildPhases = (
 				DD3E673E1997F32100A933BF /* Sources */,
 				DD3E673F1997F32100A933BF /* Frameworks */,
@@ -335,9 +335,9 @@
 			dependencies = (
 				DD3E67481997F32100A933BF /* PBXTargetDependency */,
 			);
-			name = MasterSummerProjectTests;
+			name = InternalAppTests;
 			productName = MasterSummerProjectTests;
-			productReference = DD3E67421997F32100A933BF /* MasterSummerProjectTests.xctest */;
+			productReference = DD3E67421997F32100A933BF /* InternalAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -358,7 +358,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DD3E671C1997F32100A933BF /* Build configuration list for PBXProject "MasterSummerProject" */;
+			buildConfigurationList = DD3E671C1997F32100A933BF /* Build configuration list for PBXProject "InternalApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -371,8 +371,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD3E67201997F32100A933BF /* MasterSummerProject */,
-				DD3E67411997F32100A933BF /* MasterSummerProjectTests */,
+				DD3E67201997F32100A933BF /* InternalApp */,
+				DD3E67411997F32100A933BF /* InternalAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -462,7 +462,7 @@
 /* Begin PBXTargetDependency section */
 		DD3E67481997F32100A933BF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DD3E67201997F32100A933BF /* MasterSummerProject */;
+			target = DD3E67201997F32100A933BF /* InternalApp */;
 			targetProxy = DD3E67471997F32100A933BF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -573,9 +573,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MasterSummerProject/MasterSummerProject-Prefix.pch";
-				INFOPLIST_FILE = "MasterSummerProject/MasterSummerProject-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MasterSummerProject/InternalApp-Prefix.pch";
+				INFOPLIST_FILE = "MasterSummerProject/InternalApp-Info.plist";
+				PRODUCT_NAME = InternalApp;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -589,9 +589,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MasterSummerProject/MasterSummerProject-Prefix.pch";
-				INFOPLIST_FILE = "MasterSummerProject/MasterSummerProject-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MasterSummerProject/InternalApp-Prefix.pch";
+				INFOPLIST_FILE = "MasterSummerProject/InternalApp-Info.plist";
+				PRODUCT_NAME = InternalApp;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -612,8 +612,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "MasterSummerProjectTests/MasterSummerProjectTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "MasterSummerProjectTests/InternalAppTests-Info.plist";
+				PRODUCT_NAME = InternalAppTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -630,8 +630,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MasterSummerProject/MasterSummerProject-Prefix.pch";
-				INFOPLIST_FILE = "MasterSummerProjectTests/MasterSummerProjectTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "MasterSummerProjectTests/InternalAppTests-Info.plist";
+				PRODUCT_NAME = InternalAppTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -640,7 +640,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD3E671C1997F32100A933BF /* Build configuration list for PBXProject "MasterSummerProject" */ = {
+		DD3E671C1997F32100A933BF /* Build configuration list for PBXProject "InternalApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD3E67511997F32100A933BF /* Debug */,
@@ -649,7 +649,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD3E67531997F32100A933BF /* Build configuration list for PBXNativeTarget "MasterSummerProject" */ = {
+		DD3E67531997F32100A933BF /* Build configuration list for PBXNativeTarget "InternalApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD3E67541997F32100A933BF /* Debug */,
@@ -658,7 +658,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD3E67561997F32100A933BF /* Build configuration list for PBXNativeTarget "MasterSummerProjectTests" */ = {
+		DD3E67561997F32100A933BF /* Build configuration list for PBXNativeTarget "InternalAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD3E67571997F32100A933BF /* Debug */,

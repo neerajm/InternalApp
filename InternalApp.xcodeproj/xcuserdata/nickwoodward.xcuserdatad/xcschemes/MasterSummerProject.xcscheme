@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DD3E67201997F32100A933BF"
-               BuildableName = "MasterSummerProject.app"
-               BlueprintName = "MasterSummerProject"
-               ReferencedContainer = "container:MasterSummerProject.xcodeproj">
+               BuildableName = "InternalApp.app"
+               BlueprintName = "InternalApp"
+               ReferencedContainer = "container:InternalApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DD3E67411997F32100A933BF"
-               BuildableName = "MasterSummerProjectTests.xctest"
-               BlueprintName = "MasterSummerProjectTests"
-               ReferencedContainer = "container:MasterSummerProject.xcodeproj">
+               BuildableName = "InternalAppTests.xctest"
+               BlueprintName = "InternalAppTests"
+               ReferencedContainer = "container:InternalApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DD3E67201997F32100A933BF"
-            BuildableName = "MasterSummerProject.app"
-            BlueprintName = "MasterSummerProject"
-            ReferencedContainer = "container:MasterSummerProject.xcodeproj">
+            BuildableName = "InternalApp.app"
+            BlueprintName = "InternalApp"
+            ReferencedContainer = "container:InternalApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DD3E67201997F32100A933BF"
-            BuildableName = "MasterSummerProject.app"
-            BlueprintName = "MasterSummerProject"
-            ReferencedContainer = "container:MasterSummerProject.xcodeproj">
+            BuildableName = "InternalApp.app"
+            BlueprintName = "InternalApp"
+            ReferencedContainer = "container:InternalApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DD3E67201997F32100A933BF"
-            BuildableName = "MasterSummerProject.app"
-            BlueprintName = "MasterSummerProject"
-            ReferencedContainer = "container:MasterSummerProject.xcodeproj">
+            BuildableName = "InternalApp.app"
+            BlueprintName = "InternalApp"
+            ReferencedContainer = "container:InternalApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
