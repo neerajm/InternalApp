@@ -32,6 +32,10 @@
 		342EB562199BD320001475ED /* SUBXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 342EB560199BD320001475ED /* SUBXMLParser.m */; };
 		342EB564199BD683001475ED /* splashR4 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 342EB563199BD683001475ED /* splashR4 copy.png */; };
 		342EB636199BF7A7001475ED /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342EB635199BF7A7001475ED /* MessageUI.framework */; };
+		DD25462019A3EC16008095D3 /* icon-custommer.png in Resources */ = {isa = PBXBuildFile; fileRef = DD25461F19A3EC16008095D3 /* icon-custommer.png */; };
+		DD25462219A3EC1D008095D3 /* how-do-cpu-benchmarks-work.png in Resources */ = {isa = PBXBuildFile; fileRef = DD25462119A3EC1D008095D3 /* how-do-cpu-benchmarks-work.png */; };
+		DD25462419A3EC28008095D3 /* Android-Phone-Grey-Color-Background-HD-605x1075.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD25462319A3EC28008095D3 /* Android-Phone-Grey-Color-Background-HD-605x1075.jpg */; };
+		DD25462619A3EC96008095D3 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = DD25462519A3EC96008095D3 /* profile.png */; };
 		DD3E67251997F32100A933BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3E67241997F32100A933BF /* Foundation.framework */; };
 		DD3E67271997F32100A933BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3E67261997F32100A933BF /* CoreGraphics.framework */; };
 		DD3E67291997F32100A933BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3E67281997F32100A933BF /* UIKit.framework */; };
@@ -94,6 +98,10 @@
 		342EB560199BD320001475ED /* SUBXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUBXMLParser.m; sourceTree = "<group>"; };
 		342EB563199BD683001475ED /* splashR4 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splashR4 copy.png"; sourceTree = "<group>"; };
 		342EB635199BF7A7001475ED /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		DD25461F19A3EC16008095D3 /* icon-custommer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-custommer.png"; sourceTree = "<group>"; };
+		DD25462119A3EC1D008095D3 /* how-do-cpu-benchmarks-work.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "how-do-cpu-benchmarks-work.png"; sourceTree = "<group>"; };
+		DD25462319A3EC28008095D3 /* Android-Phone-Grey-Color-Background-HD-605x1075.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Android-Phone-Grey-Color-Background-HD-605x1075.jpg"; sourceTree = "<group>"; };
+		DD25462519A3EC96008095D3 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
 		DD3E67211997F32100A933BF /* MasterSummerProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterSummerProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD3E67241997F32100A933BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DD3E67261997F32100A933BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -151,7 +159,11 @@
 				29749E7719A28BF9002C253A /* icon.png */,
 				29749E7919A28C01002C253A /* icon@2x.png */,
 				342EB563199BD683001475ED /* splashR4 copy.png */,
+				DD25461F19A3EC16008095D3 /* icon-custommer.png */,
+				DD25462319A3EC28008095D3 /* Android-Phone-Grey-Color-Background-HD-605x1075.jpg */,
+				DD25462519A3EC96008095D3 /* profile.png */,
 				342EB53C199BD164001475ED /* 22810839-profile-icon.jpg */,
+				DD25462119A3EC1D008095D3 /* how-do-cpu-benchmarks-work.png */,
 				342EB53D199BD164001475ED /* a-to-z-directory-icon-md.png */,
 				342EB53E199BD164001475ED /* clock-icon-3.png */,
 				342EB53F199BD164001475ED /* emailicon.png */,
@@ -361,8 +373,12 @@
 				DDE3F329199BEAF0007BC538 /* announcement-icon.png in Resources */,
 				DD3E673D1997F32100A933BF /* Images.xcassets in Resources */,
 				DD3E672F1997F32100A933BF /* InfoPlist.strings in Resources */,
+				DD25462619A3EC96008095D3 /* profile.png in Resources */,
 				342EB55B199BD164001475ED /* Utilities-tasks-icon.png in Resources */,
 				342EB54D199BD164001475ED /* a-to-z-directory-icon-md.png in Resources */,
+				DD25462019A3EC16008095D3 /* icon-custommer.png in Resources */,
+				DD25462419A3EC28008095D3 /* Android-Phone-Grey-Color-Background-HD-605x1075.jpg in Resources */,
+				DD25462219A3EC1D008095D3 /* how-do-cpu-benchmarks-work.png in Resources */,
 				DDE3F32D199BEB13007BC538 /* Glass_-_Windows_7_Wallpaper.jpg in Resources */,
 				DDE3F32B199BEB06007BC538 /* icon_general_sessions.jpg in Resources */,
 				29749E7819A28BF9002C253A /* icon.png in Resources */,
