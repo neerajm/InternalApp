@@ -532,7 +532,7 @@
                                 <rect key="frame" x="-1" y="0.0" width="321" height="585"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profile-ico" translatesAutoresizingMaskIntoConstraints="NO" id="HRI-rs-GdU">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profile.png" translatesAutoresizingMaskIntoConstraints="NO" id="HRI-rs-GdU">
                                 <rect key="frame" x="85" y="92" width="169" height="160"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -782,7 +782,7 @@
         <image name="a-to-z-directory-icon-md.png" width="297" height="298"/>
         <image name="announcement-icon.png" width="256" height="256"/>
         <image name="clock-icon-3.png" width="256" height="256"/>
-        <image name="coupons.png" width="2000" height="1500"/>
+        <image name="coupons.png" width="398" height="351"/>
         <image name="emailicon.png" width="512" height="512"/>
         <image name="faqs.png" width="320" height="320"/>
         <image name="full-folder-xxl.png" width="256" height="256"/>
@@ -793,8 +793,8 @@
         <image name="icon_bonus.png" width="83" height="81"/>
         <image name="images.jpeg" width="224" height="225"/>
         <image name="play-video-icon.jpg" width="256" height="256"/>
-        <image name="profile-ico" width="2000" height="1500"/>
         <image name="profile-icon.PNG" width="200" height="155"/>
+        <image name="profile.png" width="254" height="255"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

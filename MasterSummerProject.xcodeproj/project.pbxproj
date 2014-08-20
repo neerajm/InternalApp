@@ -50,6 +50,7 @@
 		DD3E67461997F32100A933BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3E67281997F32100A933BF /* UIKit.framework */; };
 		DD3E674E1997F32100A933BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD3E674C1997F32100A933BF /* InfoPlist.strings */; };
 		DD3E67501997F32100A933BF /* MasterSummerProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3E674F1997F32100A933BF /* MasterSummerProjectTests.m */; };
+		DDC8AD2119A4E1A3003B231D /* coupons.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC8AD2019A4E1A3003B231D /* coupons.png */; };
 		DDE3F327199BEAE6007BC538 /* Background_Glass.gif in Resources */ = {isa = PBXBuildFile; fileRef = DDE3F326199BEAE6007BC538 /* Background_Glass.gif */; };
 		DDE3F329199BEAF0007BC538 /* announcement-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE3F328199BEAF0007BC538 /* announcement-icon.png */; };
 		DDE3F32B199BEB06007BC538 /* icon_general_sessions.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDE3F32A199BEB06007BC538 /* icon_general_sessions.jpg */; };
@@ -121,6 +122,7 @@
 		DD3E674B1997F32100A933BF /* MasterSummerProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MasterSummerProjectTests-Info.plist"; sourceTree = "<group>"; };
 		DD3E674D1997F32100A933BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DD3E674F1997F32100A933BF /* MasterSummerProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterSummerProjectTests.m; sourceTree = "<group>"; };
+		DDC8AD2019A4E1A3003B231D /* coupons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coupons.png; sourceTree = "<group>"; };
 		DDE3F326199BEAE6007BC538 /* Background_Glass.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Background_Glass.gif; sourceTree = "<group>"; };
 		DDE3F328199BEAF0007BC538 /* announcement-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "announcement-icon.png"; sourceTree = "<group>"; };
 		DDE3F32A199BEB06007BC538 /* icon_general_sessions.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon_general_sessions.jpg; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				342EB546199BD164001475ED /* play-video-icon.jpg */,
 				342EB547199BD164001475ED /* profile-icon.PNG */,
 				DDE3F328199BEAF0007BC538 /* announcement-icon.png */,
+				DDC8AD2019A4E1A3003B231D /* coupons.png */,
 				342EB548199BD164001475ED /* SMlogo.png */,
 				DDE3F32A199BEB06007BC538 /* icon_general_sessions.jpg */,
 				342EB549199BD164001475ED /* splash.png */,
@@ -366,6 +369,7 @@
 				342EB551199BD164001475ED /* full-folder-xxl.png in Resources */,
 				342EB54E199BD164001475ED /* clock-icon-3.png in Resources */,
 				342EB559199BD164001475ED /* splash.png in Resources */,
+				DDC8AD2119A4E1A3003B231D /* coupons.png in Resources */,
 				342EB55A199BD164001475ED /* splashx2.png in Resources */,
 				342EB556199BD164001475ED /* play-video-icon.jpg in Resources */,
 				342EB555199BD164001475ED /* megafone-icon.png in Resources */,
