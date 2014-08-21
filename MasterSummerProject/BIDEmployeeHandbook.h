@@ -11,7 +11,7 @@
 
 
 @interface BIDEmployeeHandbook : UIViewController
-- (IBAction)loadpdf:(UIButton *)sender;
+
 @property (weak, nonatomic) IBOutlet UIButton *switchMode;
 @property (weak, nonatomic) IBOutlet UIButton *sendMail;
 @property (weak, nonatomic) IBOutlet UIButton *btnSendMail;
