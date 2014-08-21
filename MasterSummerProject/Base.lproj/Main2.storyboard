@@ -534,10 +534,10 @@
             </objects>
             <point key="canvasLocation" x="-246" y="-853"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile View Controller-->
         <scene sceneID="ziQ-87-eci">
             <objects>
-                <viewController id="cI5-tf-g3h" customClass="BIDViewController" sceneMemberID="viewController">
+                <viewController id="cI5-tf-g3h" customClass="BIDProfileViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CKm-OH-4kU"/>
                         <viewControllerLayoutGuide type="bottom" id="Q86-Zf-SGi"/>
@@ -682,21 +682,13 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XgB-ez-0LF">
-                                <rect key="frame" x="20" y="84" width="35" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Lg7-za-ENK" kind="modal" id="00z-3O-z3A"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="4gc-kB-6XA"/>
+                    <connections>
+                        <segue destination="Lg7-za-ENK" kind="modal" identifier="goBack" id="kpt-0J-986"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T9O-4d-DJb" sceneMemberID="firstResponder"/>
             </objects>
@@ -796,10 +788,10 @@
             </objects>
             <point key="canvasLocation" x="-224" y="-165"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Rewards Table View Controller-->
         <scene sceneID="KBJ-u8-laq">
             <objects>
-                <tableViewController id="VOl-4U-Ara" sceneMemberID="viewController">
+                <tableViewController id="VOl-4U-Ara" customClass="BIDRewardsTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="yZN-Jb-4fS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -964,6 +956,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="Y6M-qp-6ux"/>
+                    <connections>
+                        <segue destination="Lg7-za-ENK" kind="modal" identifier="goBack" id="Yqr-Ms-J2I"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3GA-HZ-far" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1303,7 +1298,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="00z-3O-z3A"/>
+        <segue reference="Yqr-Ms-J2I"/>
         <segue reference="fLp-1B-iXG"/>
         <segue reference="4qi-yY-AMK"/>
     </inferredMetricsTieBreakers>

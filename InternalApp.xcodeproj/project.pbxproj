@@ -41,6 +41,8 @@
 		346958E019A6338B008EB636 /* BIDMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346958DF19A6338B008EB636 /* BIDMovieViewController.m */; };
 		346958E219A67BBB008EB636 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346958E119A67BBB008EB636 /* MediaPlayer.framework */; };
 		346958E519A68199008EB636 /* BIDMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346958E419A68199008EB636 /* BIDMoviePlayerViewController.m */; };
+		346958E819A68F06008EB636 /* BIDRewardsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346958E719A68F06008EB636 /* BIDRewardsTableViewController.m */; };
+		346958EB19A690B3008EB636 /* BIDProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346958EA19A690B3008EB636 /* BIDProfileViewController.m */; };
 		DD25462019A3EC16008095D3 /* icon-custommer.png in Resources */ = {isa = PBXBuildFile; fileRef = DD25461F19A3EC16008095D3 /* icon-custommer.png */; };
 		DD25462219A3EC1D008095D3 /* how-do-cpu-benchmarks-work.png in Resources */ = {isa = PBXBuildFile; fileRef = DD25462119A3EC1D008095D3 /* how-do-cpu-benchmarks-work.png */; };
 		DD25462419A3EC28008095D3 /* Android-Phone-Grey-Color-Background-HD-605x1075.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD25462319A3EC28008095D3 /* Android-Phone-Grey-Color-Background-HD-605x1075.jpg */; };
@@ -119,6 +121,10 @@
 		346958E119A67BBB008EB636 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		346958E319A68199008EB636 /* BIDMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDMoviePlayerViewController.h; sourceTree = "<group>"; };
 		346958E419A68199008EB636 /* BIDMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDMoviePlayerViewController.m; sourceTree = "<group>"; };
+		346958E619A68F06008EB636 /* BIDRewardsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDRewardsTableViewController.h; sourceTree = "<group>"; };
+		346958E719A68F06008EB636 /* BIDRewardsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDRewardsTableViewController.m; sourceTree = "<group>"; };
+		346958E919A690B3008EB636 /* BIDProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDProfileViewController.h; sourceTree = "<group>"; };
+		346958EA19A690B3008EB636 /* BIDProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDProfileViewController.m; sourceTree = "<group>"; };
 		DD25461F19A3EC16008095D3 /* icon-custommer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-custommer.png"; sourceTree = "<group>"; };
 		DD25462119A3EC1D008095D3 /* how-do-cpu-benchmarks-work.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "how-do-cpu-benchmarks-work.png"; sourceTree = "<group>"; };
 		DD25462319A3EC28008095D3 /* Android-Phone-Grey-Color-Background-HD-605x1075.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Android-Phone-Grey-Color-Background-HD-605x1075.jpg"; sourceTree = "<group>"; };
@@ -273,6 +279,10 @@
 				DD3E67331997F32100A933BF /* BIDAppDelegate.h */,
 				DD3E67341997F32100A933BF /* BIDAppDelegate.m */,
 				DD3E67361997F32100A933BF /* Main2.storyboard */,
+				346958E619A68F06008EB636 /* BIDRewardsTableViewController.h */,
+				346958E719A68F06008EB636 /* BIDRewardsTableViewController.m */,
+				346958E919A690B3008EB636 /* BIDProfileViewController.h */,
+				346958EA19A690B3008EB636 /* BIDProfileViewController.m */,
 				346958E319A68199008EB636 /* BIDMoviePlayerViewController.h */,
 				346958E419A68199008EB636 /* BIDMoviePlayerViewController.m */,
 				342EB513199BA5C0001475ED /* BIDDetailPDF.h */,
@@ -453,12 +463,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				346958E019A6338B008EB636 /* BIDMovieViewController.m in Sources */,
+				346958E819A68F06008EB636 /* BIDRewardsTableViewController.m in Sources */,
 				DD3E67351997F32100A933BF /* BIDAppDelegate.m in Sources */,
 				342EB515199BA5C0001475ED /* BIDDetailPDF.m in Sources */,
 				342EB512199AA909001475ED /* BIDEmployeeHandbook.m in Sources */,
 				34232B6219A3D14C0062E328 /* SettingsViewController.m in Sources */,
 				342EB561199BD320001475ED /* SUBUser.m in Sources */,
 				DD3E673B1997F32100A933BF /* BIDViewController.m in Sources */,
+				346958EB19A690B3008EB636 /* BIDProfileViewController.m in Sources */,
 				342EB562199BD320001475ED /* SUBXMLParser.m in Sources */,
 				346958E519A68199008EB636 /* BIDMoviePlayerViewController.m in Sources */,
 				DD3E67311997F32100A933BF /* main.m in Sources */,
