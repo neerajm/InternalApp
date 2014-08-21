@@ -148,6 +148,7 @@
         self.validateduser = 0;
         UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Incorrect Password" message:@"This password is incorrect" delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
         [alert show];
+        self.labelpassword.text = @"";
     }
     
 }
