@@ -14,8 +14,16 @@
 {
     [[UIApplication sharedApplication] registerForRemoteNotificationTypes:
      (UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound | UIRemoteNotificationTypeAlert)];
+    application.applicationIconBadgeNumber = 0;
     // Override point for customization after application launch.
     return YES;
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo
+{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Software Merchant" message:[[userInfo valueForKey:@"aps"] valueForKey:@"alert"] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [alert show];
+
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -32,6 +40,7 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
+    application.applicationIconBadgeNumber = 0;
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
 }
 
