@@ -1302,14 +1302,11 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-<<<<<<< HEAD
         <segue reference="kpt-0J-986"/>
         <segue reference="MFe-mc-JbF"/>
         <segue reference="2le-H2-ZEr"/>
-=======
         <segue reference="4qi-yY-AMK"/>
         <segue reference="UdI-X1-jko"/>
         <segue reference="fLp-1B-iXG"/>
->>>>>>> FETCH_HEAD
     </inferredMetricsTieBreakers>
 </document>
