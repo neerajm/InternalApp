@@ -192,10 +192,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background_Glass.gif" translatesAutoresizingMaskIntoConstraints="NO" id="mhc-7r-yNx">
-                                <rect key="frame" x="-13" y="0.0" width="333" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="315" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="0Sr-Yv-n3G">
                                 <rect key="frame" x="0.0" y="164" width="320" height="252"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -214,7 +210,7 @@
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bIM-gD-Jpm">
                                                     <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <color key="backgroundColor" red="0.93663735809504267" green="1" blue="0.99534417743207071" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="16"/>
                                                     <color key="textColor" red="0.098824133018071553" green="0.20375490794651041" blue="0.33339986205101013" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
@@ -1163,10 +1159,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background_Glass.gif" translatesAutoresizingMaskIntoConstraints="NO" id="r8N-M5-6Pe">
-                                <rect key="frame" x="-13" y="0.0" width="333" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="315" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="iZk-6v-aWN">
                                 <rect key="frame" x="0.0" y="122" width="320" height="446"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1185,7 +1177,7 @@
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aFK-rh-DS8">
                                                     <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <color key="backgroundColor" red="0.93663735810000004" green="1" blue="0.99534417740000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="16"/>
                                                     <color key="textColor" red="0.098824133019999996" green="0.2037549079" blue="0.3333998621" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
@@ -1268,7 +1260,6 @@
     </scenes>
     <resources>
         <image name="Android-Phone-Grey-Color-Background-HD-605x1075.jpg" width="605" height="1075"/>
-        <image name="Background_Glass.gif" width="803" height="506"/>
         <image name="Glass_-_Windows_7_Wallpaper.jpg" width="1680" height="1050"/>
         <image name="IPad_3.png" width="2033" height="2530"/>
         <image name="Macys.jpg" width="2700" height="963"/>
@@ -1302,8 +1293,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="T2J-vY-sed"/>
-        <segue reference="fLp-1B-iXG"/>
         <segue reference="4qi-yY-AMK"/>
+        <segue reference="UdI-X1-jko"/>
+        <segue reference="fLp-1B-iXG"/>
     </inferredMetricsTieBreakers>
 </document>
