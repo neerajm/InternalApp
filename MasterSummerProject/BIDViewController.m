@@ -8,6 +8,7 @@
 
 #import "BIDViewController.h"
 #import "SUBXMLParser.h"
+#import "BIDUserName.h"
 
 @interface BIDViewController ()
 
@@ -142,6 +143,9 @@
     {
         self.validateduser = 1; // means valid user
         [self performSegueWithIdentifier:@"success" sender:nil];
+        BIDUserName *user = [BIDUserName sharedManager];
+        user.username = self.labeluserName.text;
+        
         
     }
     else{

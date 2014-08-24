@@ -7,6 +7,7 @@
 //
 
 #import "BIDAppDelegate.h"
+#import "BIDUserName.h"
 
 @implementation BIDAppDelegate
 
@@ -46,12 +47,21 @@
 
 - (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
 {
+    NSString *token = [[deviceToken description] stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"<>"]];
+    token = [token stringByReplacingOccurrencesOfString:@" " withString:@""];
+    //return deviceToken;
 	NSLog(@"My token is: %@", deviceToken);
+    NSLog(@"My token is: %@", token);
+    
+    BIDUserName *user = [BIDUserName sharedManager];
+    user.deviceToken = token;
 }
 
 - (void)application:(UIApplication*)application didFailToRegisterForRemoteNotificationsWithError:(NSError*)error
 {
 	NSLog(@"Failed to get token, error: %@", error);
+    BIDUserName *user = [BIDUserName sharedManager];
+    user.deviceToken = @"";
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
