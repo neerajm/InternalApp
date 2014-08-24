@@ -8,6 +8,7 @@
 
 #import "SUBXMLParser.h"
 #import "SUBUser.h"
+#import "BIDUserName.h"
 
 @implementation SUBXMLParser
 @synthesize user,users;
@@ -39,19 +40,18 @@
 }
 
 -(void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName{
-   
-
-    
+       
     if([elementName isEqualToString:@"IsUserValidResult"]){
-        [user setValue:currentElementValue forKey:elementName];
         loginValue=[[NSMutableString alloc]initWithString:currentElementValue];
         
-        [users addObject:user];
-        
-        user=nil;
-    }else{
-        [user setValue:currentElementValue forKey:elementName];
+    }else if([elementName isEqualToString:@"DeviceTokenName"]){
+        BIDUserName *user2 = [BIDUserName sharedManager];
+        if(user2.tokenList == nil){
+            user2.tokenList = [[NSMutableArray alloc]init];
+        }
+        [user2.tokenList addObject:currentElementValue];
     }
+
     currentElementValue=nil;
 }
 

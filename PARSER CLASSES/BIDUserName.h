@@ -12,6 +12,7 @@
 
 @property (nonatomic, strong) NSString *username;
 @property (nonatomic, strong) NSString *deviceToken;
+@property (nonatomic, strong) NSMutableArray *tokenList;
 
 + (id)sharedManager;
 @end

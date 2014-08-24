@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>EBDC46CD-F806-42DA-9CFA-2B90EBA4534D</string>
+	<string>AC5A32E6-CBB9-4FD1-ADC0-FF2497699BC7</string>
 	<key>IDESourceControlProjectName</key>
 	<string>InternalApp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>887A17F8-BDBC-4785-9587-82AEB6653819</key>
+		<key>84B407DD-C989-4BE2-A535-3C933D36FA0D</key>
 		<string>https://github.com/neerajm/ProjectPizza.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>InternalApp.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>887A17F8-BDBC-4785-9587-82AEB6653819</key>
+		<key>84B407DD-C989-4BE2-A535-3C933D36FA0D</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>887A17F8-BDBC-4785-9587-82AEB6653819</string>
+	<string>84B407DD-C989-4BE2-A535-3C933D36FA0D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>887A17F8-BDBC-4785-9587-82AEB6653819</string>
+			<string>84B407DD-C989-4BE2-A535-3C933D36FA0D</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ProjectPizza</string>
 		</dict>

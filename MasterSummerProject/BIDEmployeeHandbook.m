@@ -200,8 +200,14 @@
     mc.mailComposeDelegate = (id)self;
     [mc setSubject:emailTitle];
     [mc setMessageBody:messageBody isHTML:NO];
-    
-    [self presentViewController:mc animated:YES completion:NULL];
-    
+    @try {
+        [self presentViewController:mc animated:YES completion:NULL];
+    }
+    @catch (NSException *exception) {
+        
+    }
+    @finally {
+        
+    }
 }
 @end
