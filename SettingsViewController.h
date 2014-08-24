@@ -9,11 +9,21 @@
 #import <UIKit/UIKit.h>
 
 @interface SettingsViewController : UIViewController
-- (IBAction)save:(id)sender;
+
 
 @property (weak, nonatomic) IBOutlet UITextField *tfNewPassword;
+
+
 @property (weak, nonatomic) IBOutlet UITextField *tfConfirm;
+
+
+@property (nonatomic, assign) int passwordreset;
+
+
 - (IBAction)textFieldDoneEditing:(id)sender;
+
+
+- (IBAction)savebutton:(id)sender;
 
 - (IBAction)backgroundTap:(id)sender;
 @end
