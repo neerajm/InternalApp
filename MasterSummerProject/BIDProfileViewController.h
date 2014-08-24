@@ -10,4 +10,8 @@
 
 @interface BIDProfileViewController : UIViewController
 
+@property (nonatomic, assign)int redeemButton;
+
+@property (weak, nonatomic) IBOutlet UILabel *points;
+
 @end
