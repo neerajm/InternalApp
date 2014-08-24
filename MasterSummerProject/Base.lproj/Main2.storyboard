@@ -343,11 +343,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="goals_icon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3dX-SZ-zik">
-                                <rect key="frame" x="91" y="278" width="47" height="45"/>
+                                <rect key="frame" x="95" y="278" width="47" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="emailicon.png" translatesAutoresizingMaskIntoConstraints="NO" id="jqP-YO-nqE">
-                                <rect key="frame" x="80" y="367" width="75" height="68"/>
+                                <rect key="frame" x="81" y="369" width="75" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="faqs.png" translatesAutoresizingMaskIntoConstraints="NO" id="MUe-lP-F4v">
@@ -355,7 +355,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Utilities-tasks-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="CEp-p3-gcb">
-                                <rect key="frame" x="16" y="271" width="55" height="52"/>
+                                <rect key="frame" x="16" y="273" width="55" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a-to-z-directory-icon-md.png" translatesAutoresizingMaskIntoConstraints="NO" id="rEj-9j-kd5">
@@ -450,8 +450,8 @@
                                 <color key="textColor" red="0.93663735810000004" green="1" blue="0.99534417740000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Settings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsr-0d-swP">
-                                <rect key="frame" x="14" y="222" width="58" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsr-0d-swP">
+                                <rect key="frame" x="13" y="222" width="58" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" red="0.93663735810000004" green="1" blue="0.99534417740000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -470,10 +470,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iPs-62-D2v">
-                                <rect key="frame" x="17" y="174" width="52" height="45"/>
+                                <rect key="frame" x="20" y="174" width="46" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="Settings" image="images.jpeg">
+                                <state key="normal" title="Settings" image="resetbutton.jpg">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -550,10 +550,6 @@
                                 <rect key="frame" x="-1" y="0.0" width="321" height="585"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profile.png" translatesAutoresizingMaskIntoConstraints="NO" id="HRI-rs-GdU">
-                                <rect key="frame" x="78" y="66" width="169" height="160"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
                             <tableViewCell contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" translatesAutoresizingMaskIntoConstraints="NO" id="05P-mJ-gTG">
                                 <rect key="frame" x="-1" y="332" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -575,6 +571,10 @@
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="0.29861339640000001" green="0.32948328599999999" blue="0.76153938139999999" alpha="1" colorSpace="calibratedRGB"/>
                             </tableViewCell>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profile.png" translatesAutoresizingMaskIntoConstraints="NO" id="HRI-rs-GdU">
+                                <rect key="frame" x="78" y="66" width="169" height="160"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                             <tableViewCell contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" translatesAutoresizingMaskIntoConstraints="NO" id="tpl-J8-N88">
                                 <rect key="frame" x="-1" y="384" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -596,13 +596,6 @@
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="0.1011771952" green="0.23068588109999999" blue="0.59406887760000004" alpha="1" colorSpace="calibratedRGB"/>
                             </tableViewCell>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Points" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="heP-hY-h7V">
-                                <rect key="frame" x="132" y="395" width="82" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <tableViewCell contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" translatesAutoresizingMaskIntoConstraints="NO" id="79F-xC-PWh">
                                 <rect key="frame" x="-1" y="436" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -701,19 +694,12 @@
                                     <action selector="redeemButton:" destination="cI5-tf-g3h" eventType="touchUpInside" id="Lqa-gi-zJ3"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Points" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GvO-1X-C8e">
-                                <rect key="frame" x="132" y="332" width="82" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="4gc-kB-6XA"/>
                     <connections>
-                        <outlet property="points" destination="GvO-1X-C8e" id="ohg-c8-iKK"/>
+                        <outlet property="rewardspoints" destination="94O-Rz-2Ca" id="7TF-I2-D4y"/>
                         <segue destination="Lg7-za-ENK" kind="modal" identifier="goBack" id="kpt-0J-986"/>
                     </connections>
                 </viewController>
@@ -850,7 +836,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="starbucks-logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FXh-7g-dF0">
-                                                    <rect key="frame" x="20" y="0.0" width="56" height="82"/>
+                                                    <rect key="frame" x="26" y="2" width="79" height="77"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="500 points" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Erm-09-PUa">
@@ -874,7 +860,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chillis-logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="eWE-Wf-hqi">
-                                                    <rect key="frame" x="20" y="4" width="58" height="69"/>
+                                                    <rect key="frame" x="20" y="2" width="88" height="73"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1000 points" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CtN-jg-y0C">
@@ -897,7 +883,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imax_experienceit_260x166.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7jt-um-Bm5">
-                                                    <rect key="frame" x="20" y="4" width="70" height="66"/>
+                                                    <rect key="frame" x="20" y="2" width="99" height="70"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1500 points" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mej-kC-bDd">
@@ -920,7 +906,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Macys.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="68S-yc-cWk">
-                                                    <rect key="frame" x="13" y="6" width="107" height="62"/>
+                                                    <rect key="frame" x="20" y="6" width="117" height="62"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2000 points" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="51m-w3-3o2">
@@ -943,7 +929,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IPad_3.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mwg-wl-QDq">
-                                                    <rect key="frame" x="37" y="0.0" width="36" height="76"/>
+                                                    <rect key="frame" x="30" y="0.0" width="70" height="76"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2500 points" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3U-kx-lSY">
@@ -1312,11 +1298,11 @@
         <image name="how-do-cpu-benchmarks-work.png" width="512" height="512"/>
         <image name="icon-custommer.png" width="243" height="267"/>
         <image name="icon_bonus.png" width="83" height="81"/>
-        <image name="images.jpeg" width="224" height="225"/>
         <image name="imax_experienceit_260x166.jpg" width="260" height="166"/>
         <image name="play-video-icon.jpg" width="256" height="256"/>
         <image name="profile-icon.PNG" width="200" height="155"/>
         <image name="profile.png" width="254" height="255"/>
+        <image name="resetbutton.jpg" width="297" height="300"/>
         <image name="starbucks-logo.jpg" width="886" height="901"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -1326,7 +1312,7 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="kpt-0J-986"/>
-        <segue reference="4qi-yY-AMK"/>
-        <segue reference="fLp-1B-iXG"/>
+        <segue reference="MFe-mc-JbF"/>
+        <segue reference="2le-H2-ZEr"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -14,6 +14,8 @@
 		04539D7C19A4E4B40053906A /* Macys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04539D7619A4E4B40053906A /* Macys.jpg */; };
 		04539D7D19A4E4B40053906A /* chillis-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04539D7719A4E4B40053906A /* chillis-logo.jpg */; };
 		04C39E9619AA452A00E97432 /* SUBRewards.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C39E9519AA452A00E97432 /* SUBRewards.m */; };
+		04C39E9819AA623E00E97432 /* quick_restart.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C39E9719AA623E00E97432 /* quick_restart.png */; };
+		04C39E9A19AA62AA00E97432 /* resetbutton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04C39E9919AA62AA00E97432 /* resetbutton.jpg */; };
 		29749E7819A28BF9002C253A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 29749E7719A28BF9002C253A /* icon.png */; };
 		29749E7A19A28C01002C253A /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29749E7919A28C01002C253A /* icon@2x.png */; };
 		34232B6219A3D14C0062E328 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34232B6119A3D14C0062E328 /* SettingsViewController.m */; };
@@ -91,6 +93,8 @@
 		04539D7719A4E4B40053906A /* chillis-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chillis-logo.jpg"; sourceTree = "<group>"; };
 		04C39E9419AA452A00E97432 /* SUBRewards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUBRewards.h; sourceTree = "<group>"; };
 		04C39E9519AA452A00E97432 /* SUBRewards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUBRewards.m; sourceTree = "<group>"; };
+		04C39E9719AA623E00E97432 /* quick_restart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quick_restart.png; sourceTree = "<group>"; };
+		04C39E9919AA62AA00E97432 /* resetbutton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resetbutton.jpg; sourceTree = "<group>"; };
 		29749E7719A28BF9002C253A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		29749E7919A28C01002C253A /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		34232B6019A3D14C0062E328 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ../SettingsViewController.h; sourceTree = "<group>"; };
@@ -198,7 +202,9 @@
 				04539D7319A4E4B40053906A /* imax_experienceit_260x166.jpg */,
 				04539D7419A4E4B40053906A /* starbucks-logo.jpg */,
 				04539D7519A4E4B40053906A /* Rewards.jpg */,
+				04C39E9719AA623E00E97432 /* quick_restart.png */,
 				04539D7619A4E4B40053906A /* Macys.jpg */,
+				04C39E9919AA62AA00E97432 /* resetbutton.jpg */,
 				04539D7719A4E4B40053906A /* chillis-logo.jpg */,
 				29749E7719A28BF9002C253A /* icon.png */,
 				29749E7919A28C01002C253A /* icon@2x.png */,
@@ -434,6 +440,7 @@
 				342EB553199BD164001475ED /* icon_bonus.png in Resources */,
 				DDE3F329199BEAF0007BC538 /* announcement-icon.png in Resources */,
 				04539D7819A4E4B40053906A /* IPad_3.png in Resources */,
+				04C39E9A19AA62AA00E97432 /* resetbutton.jpg in Resources */,
 				DD3E673D1997F32100A933BF /* Images.xcassets in Resources */,
 				DD3E672F1997F32100A933BF /* InfoPlist.strings in Resources */,
 				DD25462619A3EC96008095D3 /* profile.png in Resources */,
@@ -455,6 +462,7 @@
 				04539D7919A4E4B40053906A /* imax_experienceit_260x166.jpg in Resources */,
 				342EB54C199BD164001475ED /* 22810839-profile-icon.jpg in Resources */,
 				342EB557199BD164001475ED /* profile-icon.PNG in Resources */,
+				04C39E9819AA623E00E97432 /* quick_restart.png in Resources */,
 				DD3E67381997F32100A933BF /* Main2.storyboard in Resources */,
 				04539D7B19A4E4B40053906A /* Rewards.jpg in Resources */,
 				04539D7C19A4E4B40053906A /* Macys.jpg in Resources */,

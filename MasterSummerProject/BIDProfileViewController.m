@@ -8,6 +8,7 @@
 
 #import "BIDProfileViewController.h"
 #import "SUBRewards.h"
+#import "BIDUserName.h"
 
 @interface BIDProfileViewController ()
 
@@ -52,10 +53,6 @@
     
     "      <UserID>%@</UserID>\n"
     
-    //    "      <Password>%@</Password>\n"
-    
-    "      <UpdateIfExists>%@</UpdateIfExists>\n"
-    
     "    </getRewardPointsForUser>\n"
     
     "  </soap12:Body>\n"
@@ -63,7 +60,10 @@
     "</soap12:Envelope>";
     
     
-    envelopeText = [NSMutableString stringWithFormat:envelopeText,@"admin"];
+    BIDUserName *userglobal = [ BIDUserName sharedManager];
+    
+    
+    envelopeText = [NSMutableString stringWithFormat:envelopeText,userglobal.username];
     
     
     NSData *envelope = [envelopeText dataUsingEncoding:NSUTF8StringEncoding];
@@ -142,22 +142,9 @@
     
     //Disect XML ressults for user id and password validity
     //[user setValue:currentElementValue forKey:elementName];
-    NSString *redeemRewards=  [parser valueForKey:@"getRewardPointsForUserResult"];
+    NSString *redeemRewards=  [parser valueForKey:@"displaypoints"];
     
-    
-    if([redeemRewards isEqualToString:@"1"])
-    {
-        self.redeemButton= 1; // means valid user
-        UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Password Change" message:@"DONE!" delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil];
-        [alert show];
-        
-        
-    }
-    else{
-        self.redeemButton = 0;
-        UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Password Change" message:@"Unsuccessful" delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
-        [alert show];
-    }
+    self.rewardspoints.titleLabel.text= [[ NSString alloc] initWithFormat:@"POINTS: %@", redeemRewards];
 }
 
 

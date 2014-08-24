@@ -10,6 +10,8 @@
 
 #import "PasswordXMLParser.h"
 
+#import "BIDUserName.h"
+
 @interface SettingsViewController ()
 
 @end
@@ -88,8 +90,10 @@
     
     "</soap12:Envelope>";
     
+        
+        BIDUserName *userglobal = [ BIDUserName sharedManager];
     
-    envelopeText = [NSMutableString stringWithFormat:envelopeText,@"admin", _tfConfirm.text,@"1" ];
+    envelopeText = [NSMutableString stringWithFormat:envelopeText,userglobal.username, _tfConfirm.text,@"1" ];
     
     
     NSData *envelope = [envelopeText dataUsingEncoding:NSUTF8StringEncoding];

@@ -17,7 +17,7 @@ NSString *displaypoints;
 
 -(SUBRewards *) initXMLParser{
     [super self];
-    
+
     return self;
 }
 
@@ -41,7 +41,7 @@ NSString *displaypoints;
     
     
     
-    if([elementName isEqualToString:@"CreateUserAccountResult"]){
+    if([elementName isEqualToString:@"Rewards_Points"]){
         
        displaypoints = currentElementValue;
     }

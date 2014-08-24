@@ -16,9 +16,5 @@
 
 -(SUBRewards *) initXMLParser;
 
-    
-
-
-
 
 @end
