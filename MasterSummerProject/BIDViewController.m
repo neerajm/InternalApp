@@ -121,8 +121,7 @@
     
     SUBXMLParser *parser=[[SUBXMLParser alloc]initXMLParser];
     
-    [nsXmlParser setDelegate:parser];
-    
+    [nsXmlParser setDelegate:(id)parser];
     
     [nsXmlParser parse];
     
@@ -139,6 +138,51 @@
             BIDUserName *user = [BIDUserName sharedManager];
             user.username = self.labeluserName.text;
             
+            ws = @"CFD";
+            NSString *envelopeText=
+            @"<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
+            "<soap12:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\n"
+            "  <soap12:Body>\n"
+            "    <getDeviceTokensForUser xmlns=\"http://tempuri.org/\">\n"
+            "      <UserID>%@</UserID>\n"
+            "    </getDeviceTokensForUser>\n"
+            "  </soap12:Body>\n"
+            "</soap12:Envelope>";
+            envelopeText = [NSString stringWithFormat:envelopeText,self.labeluserName.text];
+            NSData *envelope = [envelopeText dataUsingEncoding:NSUTF8StringEncoding];
+            
+            NSString *url=@"http://www.softwaremerchant.com/OnlineCourse.asmx";
+            NSMutableURLRequest *request=[NSMutableURLRequest requestWithURL:[NSURL URLWithString:url]cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:30.0];
+            [request setHTTPMethod:@"POST"];
+            [request setHTTPBody:envelope];
+            [request setValue:@"application/soap+xml; charset=utf-8" forHTTPHeaderField:@"Content-Type"];
+            [request setValue:[NSString stringWithFormat:@"%d",[envelope length]] forHTTPHeaderField:@"Content-Length"];
+            
+            NSURLConnection *connection=[[NSURLConnection alloc]initWithRequest:request delegate:self];
+            
+            if(connection)
+                responseData=[NSMutableData data];
+            else
+                NSLog(@"NSURLConnection initWithRequest: Failed to return a connection");
+            
+        }
+        else{
+            self.validateduser = 0;
+            UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Incorrect Password" message:@"This password is incorrect" delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
+            [alert show];
+            self.labelpassword.text = @"";
+        }
+    }
+    else if([ws isEqualToString:@"CFD"]){
+        Boolean isNew;
+        isNew = true;
+        BIDUserName *user = [BIDUserName sharedManager];
+        for (int i = 0; i<[user.tokenList count]; i++) {
+            if([user.tokenList[i] isEqualToString:user.deviceToken]){
+                isNew = false;
+            }
+        }
+        if(isNew == true){
             if([user.deviceToken length] == 64){
                 ws = @"RDT";
                 NSString *envelopeText=
@@ -169,12 +213,6 @@
                 else
                     NSLog(@"NSURLConnection initWithRequest: Failed to return a connection");
             }
-        }
-        else{
-            self.validateduser = 0;
-            UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Incorrect Password" message:@"This password is incorrect" delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
-            [alert show];
-            self.labelpassword.text = @"";
         }
     }
 }

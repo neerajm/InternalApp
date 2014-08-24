@@ -14,9 +14,7 @@
     NSMutableString *currentElementValue;
     
     SUBUser *user;
-    
-   // NSMutableArray *users;
-    
+    NSMutableArray *deviceTokens;
     NSMutableString *loginValue;
 }
 @property(nonatomic,retain) SUBUser *user;
