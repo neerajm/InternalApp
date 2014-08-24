@@ -62,6 +62,7 @@
 		DD3E67461997F32100A933BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3E67281997F32100A933BF /* UIKit.framework */; };
 		DD3E674E1997F32100A933BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD3E674C1997F32100A933BF /* InfoPlist.strings */; };
 		DD3E67501997F32100A933BF /* MasterSummerProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3E674F1997F32100A933BF /* MasterSummerProjectTests.m */; };
+		DD7138DB19AA1D13004B8BB9 /* PasswordXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7138DA19AA1D13004B8BB9 /* PasswordXMLParser.m */; };
 		DDC8AD2119A4E1A3003B231D /* coupons.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC8AD2019A4E1A3003B231D /* coupons.png */; };
 		DDE3F327199BEAE6007BC538 /* Background_Glass.gif in Resources */ = {isa = PBXBuildFile; fileRef = DDE3F326199BEAE6007BC538 /* Background_Glass.gif */; };
 		DDE3F329199BEAF0007BC538 /* announcement-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE3F328199BEAF0007BC538 /* announcement-icon.png */; };
@@ -151,6 +152,8 @@
 		DD3E674B1997F32100A933BF /* InternalAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InternalAppTests-Info.plist"; sourceTree = "<group>"; };
 		DD3E674D1997F32100A933BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DD3E674F1997F32100A933BF /* MasterSummerProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterSummerProjectTests.m; sourceTree = "<group>"; };
+		DD7138D919AA1D13004B8BB9 /* PasswordXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordXMLParser.h; sourceTree = "<group>"; };
+		DD7138DA19AA1D13004B8BB9 /* PasswordXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordXMLParser.m; sourceTree = "<group>"; };
 		DDC8AD2019A4E1A3003B231D /* coupons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coupons.png; sourceTree = "<group>"; };
 		DDE3F326199BEAE6007BC538 /* Background_Glass.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Background_Glass.gif; sourceTree = "<group>"; };
 		DDE3F328199BEAF0007BC538 /* announcement-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "announcement-icon.png"; sourceTree = "<group>"; };
@@ -234,6 +237,8 @@
 				C01A2E7019AA2E8D00877D92 /* BIDUserName.h */,
 				C01A2E7119AA2E8D00877D92 /* BIDUserName.m */,
 				342EB55E199BD320001475ED /* SUBUser.m */,
+				DD7138D919AA1D13004B8BB9 /* PasswordXMLParser.h */,
+				DD7138DA19AA1D13004B8BB9 /* PasswordXMLParser.m */,
 				342EB55F199BD320001475ED /* SUBXMLParser.h */,
 				342EB560199BD320001475ED /* SUBXMLParser.m */,
 			);
@@ -469,6 +474,7 @@
 			files = (
 				346958E019A6338B008EB636 /* BIDMovieViewController.m in Sources */,
 				346958E819A68F06008EB636 /* BIDRewardsTableViewController.m in Sources */,
+				DD7138DB19AA1D13004B8BB9 /* PasswordXMLParser.m in Sources */,
 				DD3E67351997F32100A933BF /* BIDAppDelegate.m in Sources */,
 				342EB515199BA5C0001475ED /* BIDDetailPDF.m in Sources */,
 				342EB512199AA909001475ED /* BIDEmployeeHandbook.m in Sources */,
