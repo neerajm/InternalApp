@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#define kUsernameKey  @"labeluserName"
 
 @interface BIDViewController : UIViewController
 
@@ -26,5 +27,7 @@
 - (IBAction)pressbutton:(id)sender;
 
 - (IBAction)control:(id)sender;
+
+-(void)loadUserDefaults;
 
 @end

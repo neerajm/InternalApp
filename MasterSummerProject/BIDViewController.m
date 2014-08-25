@@ -33,6 +33,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+     [self loadUserDefaults];
    
 }
 
@@ -43,6 +45,9 @@
 }
 - (IBAction)login:(id)sender {
     ws = @"LOGIN";
+    
+    NSUserDefaults *defaults= [NSUserDefaults standardUserDefaults];
+    [defaults setObject:self.labeluserName.text forKey:kUsernameKey];
     
     NSString *envelopeText=
     @"<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
@@ -233,6 +238,12 @@
 - (IBAction)control:(id)sender {
     
     [self.view endEditing:YES];
+}
+
+-(void)loadUserDefaults{
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    self.labeluserName.text= [defaults objectForKey:kUsernameKey];
 }
 
 
