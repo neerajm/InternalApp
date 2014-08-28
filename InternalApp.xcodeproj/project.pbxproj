@@ -36,6 +36,9 @@
 		346958E519A68199008EB636 /* BIDMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346958E419A68199008EB636 /* BIDMoviePlayerViewController.m */; };
 		346958E819A68F06008EB636 /* BIDRewardsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346958E719A68F06008EB636 /* BIDRewardsTableViewController.m */; };
 		346958EB19A690B3008EB636 /* BIDProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346958EA19A690B3008EB636 /* BIDProfileViewController.m */; };
+		6A995ABF19AFB57400A6EB17 /* 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A995ABC19AFB57400A6EB17 /* 120x120.png */; };
+		6A995AC019AFB57400A6EB17 /* 58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A995ABD19AFB57400A6EB17 /* 58x58.png */; };
+		6A995AC119AFB57400A6EB17 /* 80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A995ABE19AFB57400A6EB17 /* 80x80.png */; };
 		C01A2E7219AA2E8D00877D92 /* BIDUserName.m in Sources */ = {isa = PBXBuildFile; fileRef = C01A2E7119AA2E8D00877D92 /* BIDUserName.m */; };
 		DD25462419A3EC28008095D3 /* Android-Phone-Grey-Color-Background-HD-605x1075.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD25462319A3EC28008095D3 /* Android-Phone-Grey-Color-Background-HD-605x1075.jpg */; };
 		DD3E67251997F32100A933BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3E67241997F32100A933BF /* Foundation.framework */; };
@@ -107,6 +110,9 @@
 		346958E719A68F06008EB636 /* BIDRewardsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDRewardsTableViewController.m; sourceTree = "<group>"; };
 		346958E919A690B3008EB636 /* BIDProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDProfileViewController.h; sourceTree = "<group>"; };
 		346958EA19A690B3008EB636 /* BIDProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDProfileViewController.m; sourceTree = "<group>"; };
+		6A995ABC19AFB57400A6EB17 /* 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120x120.png; sourceTree = "<group>"; };
+		6A995ABD19AFB57400A6EB17 /* 58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58x58.png; sourceTree = "<group>"; };
+		6A995ABE19AFB57400A6EB17 /* 80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80x80.png; sourceTree = "<group>"; };
 		C01A2E7019AA2E8D00877D92 /* BIDUserName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDUserName.h; sourceTree = "<group>"; };
 		C01A2E7119AA2E8D00877D92 /* BIDUserName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDUserName.m; sourceTree = "<group>"; };
 		DD25462319A3EC28008095D3 /* Android-Phone-Grey-Color-Background-HD-605x1075.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Android-Phone-Grey-Color-Background-HD-605x1075.jpg"; sourceTree = "<group>"; };
@@ -205,9 +211,20 @@
 			path = "PARSER CLASSES";
 			sourceTree = SOURCE_ROOT;
 		};
+		6A995ABB19AFB57400A6EB17 /* icon-and-splashscreen-2 */ = {
+			isa = PBXGroup;
+			children = (
+				6A995ABC19AFB57400A6EB17 /* 120x120.png */,
+				6A995ABD19AFB57400A6EB17 /* 58x58.png */,
+				6A995ABE19AFB57400A6EB17 /* 80x80.png */,
+			);
+			path = "icon-and-splashscreen-2";
+			sourceTree = "<group>";
+		};
 		DD3E67181997F32100A933BF = {
 			isa = PBXGroup;
 			children = (
+				6A995ABB19AFB57400A6EB17 /* icon-and-splashscreen-2 */,
 				342EB55C199BD320001475ED /* PARSER CLASSES */,
 				342EB53B199BD164001475ED /* IMAGES */,
 				DD3E672A1997F32100A933BF /* MasterSummerProject */,
@@ -382,12 +399,14 @@
 				342EB55A199BD164001475ED /* splashx2.png in Resources */,
 				34692B9419AE64C400965368 /* Depositphotos_2091246_xs.jpg in Resources */,
 				34692B9619AE64C400965368 /* Depositphotos_38182065_xs.jpg in Resources */,
+				6A995AC019AFB57400A6EB17 /* 58x58.png in Resources */,
 				04539D7819A4E4B40053906A /* IPad_3.png in Resources */,
 				DD3E673D1997F32100A933BF /* Images.xcassets in Resources */,
 				DD3E672F1997F32100A933BF /* InfoPlist.strings in Resources */,
 				34692B9219AE64C400965368 /* Depositphotos_4022986_xs.jpg in Resources */,
 				DD25462419A3EC28008095D3 /* Android-Phone-Grey-Color-Background-HD-605x1075.jpg in Resources */,
 				DDE3F32D199BEB13007BC538 /* Glass_-_Windows_7_Wallpaper.jpg in Resources */,
+				6A995ABF19AFB57400A6EB17 /* 120x120.png in Resources */,
 				04539D7D19A4E4B40053906A /* chillis-logo.jpg in Resources */,
 				29749E7819A28BF9002C253A /* icon.png in Resources */,
 				342EB564199BD683001475ED /* splashR4 copy.png in Resources */,
@@ -395,6 +414,7 @@
 				29749E7A19A28C01002C253A /* icon@2x.png in Resources */,
 				342EB558199BD164001475ED /* SMlogo.png in Resources */,
 				DDE3F32F199BEB1B007BC538 /* gradient-gray-201.jpg in Resources */,
+				6A995AC119AFB57400A6EB17 /* 80x80.png in Resources */,
 				04539D7919A4E4B40053906A /* imax_experienceit_260x166.jpg in Resources */,
 				DD3E67381997F32100A933BF /* Main2.storyboard in Resources */,
 				04539D7B19A4E4B40053906A /* Rewards.jpg in Resources */,
@@ -562,7 +582,7 @@
 				GCC_PREFIX_HEADER = "MasterSummerProject/InternalApp-Prefix.pch";
 				INFOPLIST_FILE = "MasterSummerProject/InternalApp-Info.plist";
 				PRODUCT_NAME = InternalApp;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "3ed3834f-a182-437d-a663-6167dd0e9ac3";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -578,7 +598,7 @@
 				GCC_PREFIX_HEADER = "MasterSummerProject/InternalApp-Prefix.pch";
 				INFOPLIST_FILE = "MasterSummerProject/InternalApp-Info.plist";
 				PRODUCT_NAME = InternalApp;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "3ed3834f-a182-437d-a663-6167dd0e9ac3";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
